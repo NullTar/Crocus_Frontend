@@ -1,0 +1,92 @@
+@import "assets";
+
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 8vw;
+
+    .search-input {
+      padding-left: 2vw;
+      width: 60vw;
+      font-size: 1.2rem;
+      border: 2px solid $themeBlack;
+      border-radius: 0.4rem;
+      height: 3.2vw;
+      caret-color: $themeRed;
+      transition: all 0.5s ease;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border: 2px solid $themeRed;
+      border-radius: 0.4rem;
+    }
+
+    .subButton {
+      font-size: 1rem;
+      background-color: $themeBlack;
+      height: 3.2vw;
+      color: $fff;
+      border: 0;
+      width: 10vw;
+      margin-left: 2vw;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease;
+      outline-color: $themeBlack;
+    }
+
+    .subButton:hover {
+      background-color: $themeRed;
+      width: 11vw;
+    }
+
+  }
+
+  .tip {
+    margin-top: 2.4rem;
+    color: $themeText
+  }
+
+}
+
+.search-results {
+  width: 80vw;
+  max-height: 64vh;
+  overflow-y: auto;
+  margin: 1rem;
+
+  .search-result-title {
+    font-size: 1.6rem;
+    font-family: Bold;
+  }
+
+  .search-result-item {
+    font-size: 1.2rem;
+    color: $themeTextMain;
+    border-bottom: 1px solid $themeRed;
+    margin: 1rem;
+    padding-left: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .search-result-item:hover {
+    color: $themeRed;
+  }
+
+}
+
+.search-results-detail {
+  img{
+    width: 20vw;
+    height: 100%;
+    border-radius: 0.4rem;
+  }
+}

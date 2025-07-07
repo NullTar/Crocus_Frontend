@@ -1,0 +1,46 @@
+@import "assets";
+
+.story {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+
+  .story-left {
+    width: 22vw;
+    margin-top: 8vw;
+  }
+
+  .story-middle {
+    width: 22vw;
+    height: 80vh;
+    margin: 8vw 2vw 0;
+  }
+
+  .story-right {
+    width: 22vw;
+    margin-top: 8vw;
+  }
+
+  .items {
+    border-radius: 1rem;
+    margin-top: 2vw;
+    background-color: $themeBackgroundBorder;
+    transition: background-color 0.5s ease;
+
+    .title {
+      font-family: Blod;
+      color: $themeTextMain;
+      padding-top: 2vw;
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-family: Regular;
+      color: $themeText;
+      padding: 0 2vw 2vw;
+    }
+  }
+  .items:hover{
+    background-color: $themeStoryHover;
+  }
+}

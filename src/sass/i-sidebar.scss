@@ -1,0 +1,40 @@
+@import "assets";
+
+.admin {
+  display: flex;
+
+  .sidebar {
+    padding-top: 8vw;
+    height: calc(100vh - 8vw);
+    border-right: 2px solid $tvBorder;
+    background: $fff;
+
+    .menu {
+      display: flex;
+      margin-left: 4vw;
+      align-items: center;
+
+
+      .li-item {
+        list-style: none;
+        margin-left: 2.4vw;
+        line-height: 2.4;
+
+        svg {
+          user-select: none;
+        }
+
+        .choose {
+          color: $themeRed !important;
+        }
+
+        .li-a {
+          margin-right: 4vw;
+          color: $themeBlack;
+          font-size: 1.6rem;
+          font-family: Medium;
+        }
+      }
+    }
+  }
+}

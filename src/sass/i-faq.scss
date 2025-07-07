@@ -1,0 +1,91 @@
+@import "assets";
+
+.FAQ {
+  display: flex;
+  padding-top: 6vw;
+  .FAQ-left {
+    width: 24vw;
+    background-color: $themeBlack;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100vh ;
+    .FAQ-button{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 2vw;
+      p{
+        margin-left: 2vw;
+        font-size: 1rem;
+        color: $themeSoftText;
+      }
+      p:hover{
+        transform: scale(1);
+      }
+      svg{
+        margin-top: 0.2rem;
+        margin-right: 4vw;
+      }
+    }
+    p {
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      color: $themeWhite;
+      transition: all 0.5s ease;
+      font-family: Bold;
+
+    }
+
+    p:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .FAQ-left::-webkit-scrollbar {
+    width: 0.8rem;
+    padding-right: 1rem;
+  }
+
+  .FAQ-left::-webkit-scrollbar-thumb {
+    background: $themeGray;
+    transition: all 5s ease;
+  }
+
+  .FAQ-left::-webkit-scrollbar-thumb:hover {
+    background: $themeRed;
+  }
+
+  .FAQ-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 76vw;
+    height: 100vh ;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: $themeBlack;
+    p{
+      padding-left: 2vw;
+      margin-top: 2rem;
+      color: $themeWhite;
+      font-family: Bold;
+    }
+  }
+
+  .FAQ-right::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  .FAQ-right::-webkit-scrollbar-thumb {
+    background: $themeGray;
+    transition: all 5s ease;
+  }
+
+  .FAQ-right::-webkit-scrollbar-thumb:hover {
+    background: $themeRed;
+  }
+}

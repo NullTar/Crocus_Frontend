@@ -1,0 +1,86 @@
+@import "assets";
+@import "admin/list";
+@import "a-article";
+@import "a-question";
+@import "a-search";
+@import "a-user";
+@import "form";
+
+
+.admin {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  svg:hover {
+    transform: scale(1);
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $fff;
+    height: 100%;
+    box-shadow: 0 0 4px $tvBorder;
+
+    .title {
+      font-size: 2rem;
+      color: $themeRed;
+      padding: 2vw 4vw;
+      font-family: ExtraBold;
+    }
+
+    .link {
+      padding-left: 1.6rem;
+
+      .link-item {
+        display: flex;
+        align-items: center;
+        padding: 0.4rem 1rem;
+        margin: 1.4rem 4vw 0 0;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        transition: all 0.8s ease;
+      }
+
+      .link-item:hover {
+        transform: scale(1.2);
+        font-family: Regular;
+        background: $tvBorder;
+        border-radius: 0.4rem;
+      }
+
+      .linkItem {
+        padding-left: 1rem;
+        color: $themeText;
+      }
+    }
+
+    .button {
+      margin-top: 8rem;
+      height: 2.4rem;
+      width: 8rem;
+      font-size: 0.8rem;
+      color: $themeWhite;
+      border: none;
+      background-color: $themeBlack;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease;
+    }
+
+    .button:hover {
+      width: 8.6rem;
+      background-color: $themeRed;
+    }
+
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 2.4rem;
+  }
+
+
+}

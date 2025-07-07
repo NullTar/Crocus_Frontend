@@ -1,0 +1,74 @@
+@import "assets";
+
+.topBar {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 96vw;
+  z-index: 999;
+
+  .space {
+    display: flex;
+    justify-content: space-between;
+    max-height: 10vh;
+    min-height: 4.6rem;
+    width: 100vw;
+  }
+
+  .scrolled {
+    background-color: rgba($color: $themeGray, $alpha: 0.8) !important;
+    width: 60vw !important;
+    border-radius: 5vw !important;
+    transform: translateY(2vw) !important;
+    transition: all 2s ease !important;
+    .barTitle {
+      margin-left: 4vw !important;
+    }
+  }
+
+  .margin {
+    display: flex;
+    align-items: center;
+    transition: all 2s ease;
+
+    .barTitle {
+      font-size: 1.8rem;
+      color: $themeRed;
+      margin-left: 8vw;
+      font-family: ExtraBold;
+      transition: all 0.5s ease;
+    }
+
+    .barTitle:hover {
+      transform: scale(1.2);
+    }
+
+    .rightItem {
+      display: flex;
+      align-items: center;
+
+      .barItems {
+        font-size: 1.2rem;
+        color: $themeText;
+        font-family: Medium;
+        margin-right: 4vw;
+        transition: all 0.5s ease;
+      }
+
+      .barItems:hover {
+        color: $themeBlack;
+        transform: scale(1.2);
+      }
+
+      .quick {
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.40);
+      }
+
+      svg {
+        margin-right: 4vw;
+        margin-top: 0.4vw;
+      }
+
+    }
+  }
+}

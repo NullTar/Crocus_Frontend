@@ -1,0 +1,111 @@
+{
+  "website": {
+    "title": "Crocus",
+    "tip": "EMBRACE WHISPER",
+    "tips": "Here you can search for what you want to know",
+    "tipTwo": "Here are some stories",
+    "storyInfo": "which can be scary or heartwarming, all from real life, with names as nicknames. if you're one of them, hopefully we won't offend you. Bad history is sobering, good stories are warm others. ",
+    "questions": "Some one will ask questions on this site, and when they choose to make the question public, it may appear there. Of course, there are also questions prepared by the website operator, I hope you find them helpful !",
+    "questionLeft": "You can get more information that you want to know, ",
+    "questionRight": "like about yourself  ",
+    "bookArticle": "There are some books and articles that can be referred to here, which come from the Internet and are not available for download, filtering out those with personal prejudice, racial discrimination and sexism. Only a considerable, referable part is retained."
+  },
+  "quick": "QUICK",
+  "profile": {
+    "personal": "Profile",
+    "quit": "Log out"
+  },
+  "loading": "loading... ",
+  "copy": "copy url",
+  "error": {
+    "info": "seconds later to ",
+    "length_error": "wrong length",
+    "email_error": "this email address is not allowed",
+    "please_input": "please fill form",
+    "accountError": "account length is at least equal to 8",
+    "passwordError": "password length is at least equal to 8",
+    "unequalError": "unequal passwords",
+    "equalError": "account and password cannot be the same",
+    "keyWordError": "database keywords are not allowed",
+    "requestError": "request not allowed",
+    "loginError": "login failed",
+    "characterError": "English (case) numbers @ _ -. % + are allowed, but Chinese are not"
+  },
+  "help": {
+    "region": "Region",
+    "province": "Province",
+    "area": "Area or City",
+    "city": "City",
+    "tip": "At least select to Area or City",
+    "button": "Filter"
+  },
+  "search": {
+    "placeholder": "What you want to know ?",
+    "button": "Search"
+  },
+  "foot": {
+    "support": "Support",
+    "report": "",
+    "reportLink": "",
+    "website": "",
+    "websiteLink": "",
+    "center": "",
+    "centerLink": "",
+    "porn": "",
+    "pornLink": "",
+    "reportChildPorn": "",
+    "reportChildPornLink": "",
+    "privacy": "Privacy Policy",
+    "iconfont": "iconfont",
+    "lottieFiles": "LottieFiles",
+    "jetBrains": "JetBrains Mono",
+    "contact": "Contact Us",
+    "about": "About & ",
+    "advice": "Tell us what should we do or change"
+  },
+  "request": {
+    "verify": "verify",
+    "verifyCode": "verify code",
+    "authCode": "authority code",
+    "bindAuthTip": "you could bind authenticator || input your account password",
+    "submit": "submit",
+    "retry": "retry",
+    "wait": "Please wait",
+    "failed": "Request Failed",
+    "resendAfter": "Resend Code After {count} Seconds, {time}"
+  },
+  "login": {
+    "login": "Login",
+    "account": "Account",
+    "accountOrEmail": "Account Or Email",
+    "email": "Email",
+    "password": "Password",
+    "authenticator": "Authenticator",
+    "info": "type authenticator if you have !!!",
+    "sign": "sign in",
+    "tip": "Don't have an account?",
+    "create": "Create account",
+    "back": "back to "
+  },
+  "register": {
+    "create": "Register",
+    "info": "Binding an authenticator? ",
+    "sign": "sign in",
+    "tip": "Already have an account? "
+  },
+  "topBar": {
+    "help": "I NEED HELP !!!",
+    "FAQ": "FAQ"
+  },
+  "question": {
+    "topBar": "Question",
+    "QUESTIONS": "QUESTIONS",
+    "info": "click the Refresh button for more"
+  },
+  "recommendation": {
+    "topBar": "Recommendation",
+    "recommendation": "recommendation",
+    "BOOKS": "BOOKS",
+    "ARTICLES": "ARTICLES"
+  }
+}

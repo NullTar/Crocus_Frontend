@@ -1,0 +1,65 @@
+@import "../assets";
+
+.list {
+  margin: 0;
+  padding: 0 2rem;
+  height: 86vh;
+  overflow-x: hidden;
+  min-width: 74vw;
+
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: $fff;
+    box-shadow: 0 0 4px $tvBorder;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+
+    .title {
+      font-size: 1.2rem;
+      font-family: Blod;
+      color: $themeTextMain;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .content {
+      max-width: 64vw;
+      overflow: hidden;
+      padding-top: 0.4rem;
+      font-size: 1rem;
+      list-style: none;
+      font-family: Regular;
+      color: $themeText;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .button {
+      height: 2.4rem;
+      width: 4rem;
+      margin-left: 1rem;
+      font-size: 1rem;
+      color: $themeWhite;
+      border: none;
+      background-color: $themeBlack;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease-in-out;
+    }
+    .button:hover{
+      width: 5.6rem;
+    }
+  }
+
+  .list-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0px 16px $themeSoftText;
+  }
+
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

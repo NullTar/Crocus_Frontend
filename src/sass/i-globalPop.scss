@@ -1,0 +1,33 @@
+@import "assets";
+
+.pop-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+  .pop-window{
+    background-color:$fff ;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 4px $tvBorder;
+    .pop-header {
+      display: flex;
+      justify-content: space-between;
+      line-height: 0;
+      .close-button {
+        all: unset;
+        font-size: 1.6rem;
+        border: 0;
+        background-color: transparent;
+      }
+    }
+  }
+
+
+}

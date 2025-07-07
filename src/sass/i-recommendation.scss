@@ -1,0 +1,164 @@
+@import "assets";
+
+
+.recommendation {
+  margin-top: 8rem;
+
+  .tip {
+    font-size: 1rem;
+    font-family: SemiBold;
+    color: $themeSoftText;
+    padding-bottom: 1rem;
+    display: flex;
+    align-self: center;
+  }
+
+  .recommendation-header {
+    margin: 0 4vw;
+    border-radius: 1rem;
+    background-color: $themeBlack;
+    opacity: 0.92;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 2vw;
+
+      .title {
+        display: flex;
+
+        .choose {
+          transform: scale(1.4);
+          color: $themeRed;
+        }
+
+        .article {
+          margin-left: 2vw;
+        }
+
+        p {
+          font-size: 1.4rem;
+          padding-left: 4vw;
+          color: $themeSoftText;
+          font-family: Regular;
+          transition: all 0.5s ease;
+        }
+
+        p:hover {
+          color: $themeRed;
+          transform: scale(1.4);
+        }
+      }
+
+      svg {
+        margin-right: 4vw;
+      }
+    }
+
+    .margin {
+      padding: 1rem;
+
+      .book-card {
+        display: flex;
+        flex-direction: column;
+        width: 12rem;
+        padding: 0.8rem;
+        margin: 0.8rem;
+        border: 1px solid $tvBorder;
+        border-radius: 0.4rem;
+        background-color: $fff;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .book-card:hover {
+        scale: calc(1.02);
+      }
+
+      .book-cover {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+
+      .book-info {
+        margin-top: 0.8rem;
+      }
+
+      .book-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .book-author {
+        font-size: 14px;
+        color: #555;
+      }
+
+      .book-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      .list-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto; /* 居中对齐 */
+      }
+
+      .list-item {
+        display: flex;
+        align-items: center;
+        margin: 0.2rem;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      .list-item:hover {
+        transform: translateY(-2px);
+      }
+
+
+      .list-item-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: inherit;
+      }
+
+      .content-container {
+        width: 80vw;
+      }
+
+
+      .list-item-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 5px;
+        padding-bottom: 0.8rem;
+        color: #333;
+      }
+
+      .list-item-description {
+        display: flex;
+        gap: 1rem;
+        font-size: 14px;
+        color: #777;
+        padding-right: 1rem;
+        margin: 0;
+      }
+
+      p {
+        font-size: 2rem;
+        color: $tvBorder;
+      }
+    }
+  }
+
+}
+
+

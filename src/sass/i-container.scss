@@ -1,0 +1,69 @@
+@import "assets";
+
+.container {
+  margin-top: 8vw;
+  width: 100vw;
+  background-color: $themeBlack;
+
+  .margin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8vw;
+
+    .televisionBorder {
+      border: 1.4vh solid $tvBorder;
+      border-radius: 1rem;
+
+      .television {
+        width: 80vw;
+        height: 40vw;
+        border-radius: 1em;
+        overflow: hidden;
+
+        .question-txt {
+          display: block;
+          white-space: nowrap;
+          font-size: 1.4rem;
+          margin: 1rem 4rem;
+          font-weight: bold;
+          color: #ffffff;
+        }
+
+        /* 定义滚动动画 */
+        @keyframes scrollLeft {
+          from {
+            transform: translateX(100%);
+          }
+          to {
+            transform: translateX(-100%);
+          }
+        }
+      }
+    }
+
+    .televisionBar {
+      height: 2vh;
+      background-color: $themeRed;
+      border-radius: 0.5em;
+    }
+
+    .televisionBarF {
+      width: 24vh;
+      margin-top: 3vh;
+    }
+
+    .televisionBarS {
+      width: 36vh;
+      margin-top: 2vh;
+    }
+  }
+
+  p {
+    padding: 8vw;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Regular;
+    color: $themeSoftText;
+  }
+}

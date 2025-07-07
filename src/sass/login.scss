@@ -1,0 +1,117 @@
+@import "assets";
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .link {
+    font-size: 1rem;
+    padding: 0.2rem;
+    color: $themeSoftText;
+    text-decoration: none;
+  }
+
+  .title {
+    font-size: 4rem;
+    color: $themeBlack;
+    padding-bottom: 2rem;
+    font-family: ExtraBold;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form-tips{
+      display: flex;
+      justify-content: space-between;
+      .coloured{
+        color: $themeRed ;
+      }
+    }
+
+    .tip {
+      font-size: 0.9rem;
+      margin-top: 0.2vw;
+      color: $themeText;
+      font-family: Regular
+    }
+
+    .button {
+      font-size: 1.4rem;
+      background-color: $themeBlack;
+      margin-top: 2vw;
+      width: 100%;
+      max-width: 27vw;
+      height: 4vw;
+      color: $fff;
+      border: 0;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease;
+      outline-color: $themeBlack;
+    }
+
+
+    .button:hover {
+      background-color: $themeRed;
+      transform: scale(1.02);
+    }
+  }
+
+
+  .buttom {
+    margin-top: 1vw;
+    color: $themeText;
+
+    p {
+      margin-top: 1vw;
+      font-size: 1rem;
+      text-align: center;
+      line-height: 1.2vw;
+    }
+
+    .info {
+      display: flex;
+
+      .create {
+        color: $themeBlack;
+        font-size: 1.2rem;
+        margin-left: 1vw;
+        transition: all 0.5s ease;
+        font-family: Blod;
+      }
+
+      .create:hover {
+        color: $themeRed;
+      }
+    }
+  }
+
+  .back {
+    display: flex;
+    line-height: 0;
+    text-align: center;
+    margin-top: 4vw;
+
+    .info {
+      font-size: 1.4rem;
+      font-family: Regular;
+      color: $themeText;
+    }
+
+    .title {
+      font-size: 1.6rem;
+      font-family: Blod;
+      margin-left: 1vw;
+      transition: all 0.5s ease;
+      color: $themeRed;
+    }
+
+    .title:hover {
+      font-size: 1.8rem;
+    }
+  }
+}

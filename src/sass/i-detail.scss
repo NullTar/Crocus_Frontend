@@ -1,0 +1,162 @@
+@import "assets";
+
+.book-detail {
+  display: flex;
+  color: $themeBlack;
+  gap: 1rem;
+  font-size: 1.04rem;
+  margin: 0.8rem;
+}
+
+.article-detail {
+  padding: 12vh 0 6rem 0;
+
+  .article-detail-info {
+    display: flex;
+    align-items: center;
+    color: $themeText;
+    padding-right: 6rem;
+
+    .handle-show {
+      color: $fff;
+      padding: 0.2rem 0.6rem;
+      background-color: $themeBlack;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .handle-show:hover {
+      color: $themeRed;
+      scale: calc(1.08);
+    }
+
+    span {
+      padding-left: 2.4rem;
+    }
+  }
+}
+
+.preview-container {
+  margin-top: 2rem;
+  display: flex;
+  height: 80vh;
+  overflow: scroll;
+
+  .preview-sidebar {
+    position: sticky;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: auto;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid $tvBorder;
+
+    .preview-menu {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: 0.86rem;
+
+      .preview-menu-item {
+        padding-top: 1rem;
+        color: $themeText;
+
+        a {
+          color: $themeText;
+        }
+      }
+    }
+  }
+
+
+  .preview-content {
+    flex: 1 !important;
+    padding-top: 0;
+    padding-right: 6rem;
+    font-size: 1.2rem;
+    height: 100%;
+    color: $themeTextMain;
+
+    p {
+      text-indent: 2em;
+      line-height: 1.8;
+      letter-spacing: 0.08em;
+      font-size: 1.4rem;
+    }
+
+    p:has(img) {
+      text-indent: 0;
+    }
+
+    img {
+      margin: 2rem auto;
+      width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      color: $themeRed;
+    }
+
+    h2 {
+      color: transparentize($themeRed, 0.2);
+    }
+
+    h3 {
+      color: transparentize($themeRed, 0.4);
+    }
+
+    h4 {
+      color: transparentize($themeRed, 0.6);
+    }
+
+  }
+}
+
+
+.story-detail {
+  margin-top: 1rem;
+  width: 40vw;
+  font-size: 1.2rem;
+  color: $themeText;
+}
+
+.article-preview-default {
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  z-index: 900;
+  backdrop-filter: blur(2rem);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), transparent);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+
+.pop-title {
+  color: $themeTextMain;
+}
+
+.pop-content {
+  color: $themeText;
+}
+
+
+.profile-container {
+  padding: 12vh;
+
+  p {
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
+  }
+}
+
+.detail-button {
+  margin: 1rem 1rem 0 0;
+  width: 6rem !important;
+  min-height: 2.4rem;
+}
+
+.detail-button:hover {
+  width: 6.8rem !important;
+}

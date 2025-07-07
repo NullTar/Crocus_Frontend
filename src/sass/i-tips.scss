@@ -1,0 +1,81 @@
+@import "assets";
+
+.tip {
+  display: flex;
+  justify-content: center;
+  background: $themeGradientTwo;
+  -webkit-background-clip: text;
+  background-clip: text;
+  pointer-events: none;
+
+  p {
+    padding: 32vh 0 4vw;
+    font-size: 8em;
+    color: transparent;
+    font-family: ExtraBold;
+    text-align: center;
+  }
+}
+
+.tips {
+  display: flex;
+  justify-content: center;
+  background: $themeGradientBack;
+  -webkit-background-clip: text;
+  background-clip: text;
+  pointer-events: none;
+
+  p {
+    padding: 0 8vw 8vw;
+    font-size: 4em;
+    color: transparent;
+    font-family: ExtraBold;
+    text-align: center;
+  }
+}
+
+.tipTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $themeGradientBack;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  .title {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    color: transparent;
+    font-size: 4rem;
+  }
+
+  .info {
+    opacity: 0;
+    padding-bottom: 4vw;
+    color: $themeText;
+    font-size: 1.4rem;
+  }
+
+  p {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-family: ExtraBold;
+    text-align: center;
+  }
+}
+
+.bottom-tip {
+  display: flex;
+  justify-content: center;
+  background: $themeGradientTwo;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  p {
+    margin-top: 10vw;
+    font-size: 6em;
+    color: transparent;
+    font-family: Blod;
+    text-align: center;
+  }
+}

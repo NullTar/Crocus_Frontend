@@ -1,0 +1,112 @@
+{
+  "website": {
+    "title": "Crocus",
+    "tip": "止语听痛 温柔以待",
+    "tips": "你可以在这里搜索你想要了解的",
+    "tipTwo": "这里有一些故事",
+    "storyInfo": "可能是可怕的或温暖人心的，这些故事全部来自于现实生活，名字已做处理，如果你是故事中的一员，希望不会冒犯到您。糟糕的历史令人警醒，温暖的故事使人安心 ",
+    "questions": "有的人会在此网站提出问题，当他们选择问题公开以后，有可能会在此出现。当然啦！也有网站运营者准备的问题，希望这些问题对你有所帮助 ！",
+    "questionLeft": "你可以获取更多想要知道的信息，比如",
+    "questionRight": "了解你自己 ",
+    "bookArticle": "这里可以参考有一些书籍和文章，来源于网络，不提供下载，过滤了一些持有个人偏见的、种族歧视的、性别歧视的。只保留了可观的、可参考的部分 "
+  },
+  "quick": "功能",
+  "profile": {
+    "personal": "个人中心",
+    "quit": "退出登录"
+  },
+  "loading": "正在加载中... ",
+  "copy": "拷贝 URL",
+  "error": {
+    "info": "秒钟后跳转到 ",
+    "length_error": "长度不正确",
+    "email_error": "此邮箱不被允许",
+    "input_error": "输入不完整",
+    "please_input": "请填写表单",
+    "accountError": "账户长度至少等于8",
+    "passwordError": "密码长度至少等于8",
+    "unequalError": "两次输入的密码不同",
+    "equalError": "账号密码不允许相同",
+    "keyWordError": "不允许数据库关键字",
+    "requestError": "不允许发请求, 请检查数据",
+    "loginError": "登陆失败",
+    "characterError": "允许英文(大小写) 数字 @ _ - . % + 不允许中文"
+  },
+  "help": {
+    "region": "国家或地区",
+    "province": "省、洲",
+    "area": "地区或城市",
+    "city": "城市",
+    "tip": "至少选择到第三项 (地区或城市)",
+    "button": "过滤"
+  },
+  "search": {
+    "placeholder": "你想知道什么 ?",
+    "button": "搜索"
+  },
+  "foot": {
+    "support": "支持",
+    "report": "中国违法和不良信息举报中心",
+    "reportLink": "https://www.12377.cn/",
+    "website": "中国网络违法犯罪举报网站",
+    "websiteLink": "https://cyberpolice.mps.gov.cn",
+    "center": "中国网络不良与垃圾信息举报受理中心",
+    "centerLink": "https://www.12321.cn/warn.php",
+    "porn": "中国扫黄打非网",
+    "pornLink": "https://www.shdf.gov.cn/",
+    "reportChildPorn": "知乎儿童色情举报中心",
+    "reportChildPornLink": "https://www.zhihu.com/term/child-jubao",
+    "privacy": "Privacy Policy",
+    "iconfont": "阿里巴巴矢量图标库",
+    "lottieFiles": "LottieFiles",
+    "jetBrains": "JetBrains Mono",
+    "contact": "联系我们",
+    "about": "关于 & ",
+    "advice": "提出一些建议"
+  },
+  "request": {
+    "verify": "验证",
+    "verifyCode": "验证码",
+    "authCode": "身份验证器",
+    "submit": "提交",
+    "bindAuthTip": "输入密码以绑定身份验证器",
+    "retry": "重试",
+    "wait": "请等待",
+    "failed": "请求失败",
+    "resendAfter": "{count}后重试, {time}"
+  },
+  "login": {
+    "login": "登陆",
+    "account": "账户",
+    "accountOrEmail": "账户 或 邮箱",
+    "email": "邮箱",
+    "password": "密码",
+    "authenticator": "身份验证",
+    "info": "如果你有, 务必输入身份验证码 !!!",
+    "sign": "登陆",
+    "tip": "没有账户 ?",
+    "create": "注册",
+    "back": "回到"
+  },
+  "register": {
+    "create": "注册",
+    "info": "绑定身份验证器",
+    "sign": "注册",
+    "tip": "已经有账户了 ?"
+  },
+  "question": {
+    "topBar": "问题",
+    "QUESTIONS": "问题",
+    "info": ""
+  },
+  "recommendation": {
+    "topBar": "推荐",
+    "recommendation": "推荐",
+    "BOOKS": "书籍",
+    "ARTICLES": "文章"
+  },
+  "topBar": {
+    "help": "我需要帮助 !!!",
+    "FAQ": "使用手册"
+  }
+}

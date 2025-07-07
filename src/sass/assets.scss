@@ -1,0 +1,79 @@
+
+
+$fff: rgb(255, 255, 255);
+$themeWhite: rgba(245, 245, 245, 0.84);
+$themeBackground: #f8f8fa;
+$themeBackgroundBorder: rgba(0, 0, 0, 0.05);
+
+$themeBlack: rgb(51, 51, 51);
+$themeGray: #F4F4F4;
+$themeRed: #ee1b67;
+
+$themeStoryHover: #EA3F630A;
+
+$themeGradientBack: linear-gradient(#ea3f63, #ea3fb4);
+$themeGradientTwo: linear-gradient(#ea3fb4, #ea3f63);
+
+$themeTextMain: #31373f;
+$themeText: #5E5E5E;
+$themeSoftText: #A4A4A4;
+$tvBorder: #bbbbbb;
+
+
+// fontsize
+
+
+// layout
+
+
+
+// fonts
+@font-face {
+  font-family: 'Blod';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ExtraLight';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Italic';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Light';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SemiBold';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ThinItalic';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-ThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Thin';
+  src: url('../assets/JetBrainsMono/fonts/webfonts/JetBrainsMono-Thin.woff2') format('woff2');
+}

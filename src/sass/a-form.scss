@@ -1,0 +1,107 @@
+@import "assets";
+
+
+.eighty-form {
+  width: 80vw;
+  height: 80vh;
+  font-size: 1.2rem;
+  color: $themeTextMain;
+  cursor: default;
+  text-decoration: none;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  display: flex;
+  flex-direction: column;
+
+  .padding {
+    padding: 0.8rem;
+  }
+
+  .padding-left {
+    padding-left: 1rem;
+  }
+
+  .form-input {
+    padding-left: 2vw;
+    font-size: 1.2rem;
+    border: 2px solid $themeBlack;
+    border-radius: 0.4rem;
+    height: 2.4vw;
+    margin-left: 1rem;
+    caret-color: $themeRed;
+    transition: all 0.5s ease;
+    outline: none;
+  }
+
+  .file-form {
+    width: 20vw;
+    height: 20vw;
+    border: #ee1b67 2px solid;
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+    position: relative;
+
+    input {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    &::before {
+      content: "+";
+      position: absolute;
+      top: 46%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 8rem;
+      line-height: 0;
+      color: #ee1b67;
+      pointer-events: none;
+    }
+  }
+
+  .tip{
+    padding-left: 1rem;
+    color: $themeSoftText;
+    font-size: 1rem;
+  }
+
+  .close-button {
+    all: unset;
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    border: 0;
+    line-height: 0;
+  }
+
+}
+
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 0.4rem 4rem 0.4rem 0.4rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  margin-left: 0.4rem;
+  transition: all 0.5s ease;
+  background-color: $themeGray;
+  background-image: url('/src/assets/icons/down-arrow.svg');
+  background-repeat: no-repeat;
+  -moz-background-image: url('/src/assets/icons/down-arrow.svg');
+  -webkit-background-image: url('/src/assets/icons/down-arrow.svg');
+  background-position: right 0.4rem center;
+  //background-size: 1rem 1rem;
+  //color: $themeTextMain;
+  color: $themeWhite;
+
+  option {
+    mix-blend-mode: difference;
+  }
+}

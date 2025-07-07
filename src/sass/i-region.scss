@@ -1,0 +1,41 @@
+@import "assets";
+
+.select {
+  padding-top: 8vw;
+
+  .selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+    .subButton {
+      width: 10vw;
+      margin-left: 2vw;
+      font-size: 1rem;
+      background-color: $themeBlack;
+      border-radius: 0.4rem;
+      transition: all 0.5s ease;
+    }
+
+    .subButton:hover {
+      transform: scale(1.2);
+      background-color: $themeRed;
+    }
+  }
+
+  p {
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    color: $themeRed;
+    font-size: 1.4rem;
+    font-family: Bold;
+  }
+
+  .helpContainer {
+    min-height: calc((100vh - 8vw) - 2rem);
+    background-color: $themeBlack;
+    color: $themeRed;
+  }
+}

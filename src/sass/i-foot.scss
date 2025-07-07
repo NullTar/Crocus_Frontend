@@ -1,0 +1,59 @@
+@import "assets";
+
+.foot {
+  background-color: $themeBlack;
+  min-height: 56vh;
+
+  a {
+    font-size: 1.4rem;
+    color: $themeGray;
+    margin-top: 1.4rem;
+    transition: all 0.5s ease;
+    font-family: Regular;
+  }
+
+  a:hover {
+    font-size: 2rem;
+    font-family: Blod;
+    color: $themeRed;
+  }
+
+  .content {
+    display: flex;
+    padding-top: 2vw;
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      white-space: nowrap;
+      margin-left: 6vw;
+
+      .expanded {
+        font-family: Blod;
+        text-shadow: 1px 0 0 rgba(255, 255, 255, 1), 2px 0 0 rgba(255, 255, 255, 1), 3px 0 0 rgba(255, 255, 255, 1), 4px 0 0 rgba(255, 255, 255, 1);
+      }
+
+      .text {
+        font-size: 4rem;
+        font-family: Thin;
+        letter-spacing: 1.5px;
+        transition: all 0.5s ease;
+      }
+
+      .text:hover {
+        font-family: ExtraBold;
+        font-size: 4.8rem;
+        text-shadow: none;
+      }
+
+      .advice {
+        font-size: 1.2rem;
+        color: $themeSoftText;
+      }
+
+      .advice:hover {
+        font-family: Regular, serif;
+      }
+    }
+  }
+}

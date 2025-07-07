@@ -1,0 +1,36 @@
+@import "assets";
+
+.user-page {
+  display: flex;
+  width: 76vw;
+  justify-content: space-between;
+  padding: 2rem 0;
+
+  .fContent {
+    margin-left: 4vw;
+  }
+
+  .SContent {
+    margin-right: 4vw;
+  }
+
+  .card {
+    border-radius: 0.6rem;
+    width: calc((70vw - 12vw) / 2);
+    box-shadow: 0 0 8px $tvBorder;
+    background: $fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .cardImg {
+      width: 4rem;
+    }
+
+    .cardInfo {
+      font-size: 2.6rem;
+    }
+  }
+
+}

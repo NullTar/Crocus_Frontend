@@ -5,3 +5,5 @@
 node_modules
 out
 src/css
+
+.DS_Store

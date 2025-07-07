@@ -1,9 +1,8 @@
 # Crocus_Frontend
 
 
-[English]()
+[English](readme_en.md)
 
-[中文]()
 
 ```
 ## React18
